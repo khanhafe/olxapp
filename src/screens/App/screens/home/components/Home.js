@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router";
+import $ from "jquery";
 
 var Home = React.createClass({
   getInitialState: function() {
@@ -13,7 +14,6 @@ var Home = React.createClass({
       parseInt($(".app > div").css("margin-top")) -
       parseInt($(".app > div").css("margin-bottom"));
     $(".app > div").css("min-height", minHeight);
-    $("#carousel").Carousel();
   },
   componentWillUnmount: function() {},
   render: function() {
