@@ -1,2 +1,0 @@
-# olxapp
-Created with CodeSandbox
